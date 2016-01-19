@@ -12,6 +12,10 @@ url:                 http://teddyma.cn
 baseurl:             ''
 gems:				 ["jekyll-paginate"]
 paginate:            5
+markdown:            kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
 # About/contact
 author:
