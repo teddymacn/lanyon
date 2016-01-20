@@ -8,9 +8,9 @@ permalink:           pretty
 title:               Teddy's Knowledge
 tagline:             '.NET, Open Source, Cassandra, RabbitMQ, ELK, Architecture, etc'
 description:         "Teddy Ma, full-stack software developer/architect in internet & online education industry for 15 years @ Shanghai, China"
-url:                 http://teddyma.cn
+#url:                 http://teddyma.cn
 baseurl:             ''
-gems:				 ["jekyll-paginate"]
+gems:				 ["jekyll-paginate", "jekyll-picture-tag"]
 paginate:            5
 markdown:            kramdown
 kramdown:
@@ -25,3 +25,27 @@ author:
 
 # Custom vars
 version:             1.0.0
+
+# Image
+picture:
+  source: assets/images/_fullsize
+  output: generated
+  markup: picture
+  presets:
+    # Full width pictures
+    default:
+      #ppi: [1, 1.5]
+      attr:
+        class: blog-full
+        itemprop: image
+      source_full:
+        width: 720
+      source_lrg:
+        media: "(min-width: 40em)"
+        width: 720
+      source_med:
+        media: "(min-width: 30em)"
+        width: 450
+      source_default:
+        width: 350
+        height: 200
