@@ -7,15 +7,15 @@ Installed jekyll-picture-tag plugin to display pictures responsively in posts.
 
 Steps to install:
 
-1. install gem;
+Step 1: install gem;
 
 ``` bash
 gem install jekyll-picture-tag
 ```
 
-2. edit _config.yml according to: [jekyll-picture-tag _config.yml example](https://github.com/robwierzbowski/jekyll-picture-tag/blob/master/examples/_config.yml);
+Step 2: edit _config.yml according to: [jekyll-picture-tag _config.yml example](https://github.com/robwierzbowski/jekyll-picture-tag/blob/master/examples/_config.yml);
 
-3. add liquid tag to post;
+Step 3: add liquid tag to post;
 
 {% raw %}
 ``` txt
