@@ -19,10 +19,10 @@ Step 3: add liquid tag to post;
 
 {% raw %}
 ``` txt
-{% picture 2015-1-20-1.jpg alt="picture 1" %}
-{% picture 2015-1-20-2.jpg alt="picture 2" %}
+{% picture 2015-1-20-1.jpg alt="picture 1" group="1" %}
+{% picture 2015-1-20-2.jpg alt="picture 2" group="1" %}
 ```
 {% endraw %}
 	
-{% picture 2015-1-20-1.jpg alt="picture 1" %}
-{% picture 2015-1-20-2.jpg alt="picture 2" %}
+{% picture 2015-1-20-1.jpg alt="picture 1" group="1" %}
+{% picture 2015-1-20-2.jpg alt="picture 2" group="1" %}

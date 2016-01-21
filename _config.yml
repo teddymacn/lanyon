@@ -32,11 +32,8 @@ picture:
   output: generated
   markup: picture
   presets:
-    # Full width pictures
     default:
-      #ppi: [1, 1.5]
       attr:
-        class: blog-full
         itemprop: image
       source_full:
         width: 720
@@ -47,5 +44,17 @@ picture:
         media: "(min-width: 30em)"
         width: 450
       source_default:
-        width: 350
-        height: 200
+        width: 250
+    half:
+      attr:
+        itemprop: image
+      source_full:
+        width: 720
+      source_lrg:
+        media: "(min-width: 40em)"
+        width: 450
+      source_med:
+        media: "(min-width: 30em)"
+        width: 250
+      source_default:
+        width: 150
