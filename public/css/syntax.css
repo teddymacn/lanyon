@@ -64,4 +64,4 @@
 .css .o + .nt,
 .css .nt + .nt { color: #999; }
 
-.highlight, .language-txt {font-size:12px}
+.highlight, .language-txt {font-size:14px;overflow-x:auto;white-space:pre;word-wrap:normal}
