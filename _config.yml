@@ -10,7 +10,7 @@ tagline:             '.NET, Open Source, Cassandra, RabbitMQ, ELK, Architecture,
 description:         "Teddy Ma, full-stack software developer/architect in internet & online education industry for 15 years @ Shanghai, China"
 #url:                 http://teddyma.cn
 baseurl:             ''
-gems:				 ["jekyll-paginate", "jekyll-picture-tag"]
+gems:				 ["jekyll-paginate", "jekyll-picture-tag", "jekyll-archives"]
 paginate:            5
 markdown:            kramdown
 kramdown:
@@ -58,3 +58,11 @@ picture:
         width: 250
       source_default:
         width: 150
+
+# Archives
+jekyll-archives:
+  enabled:
+    - tags  
+  layout: 'tag'
+  permalinks:
+    tag: '/tag/:name/'

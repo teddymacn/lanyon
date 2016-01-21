@@ -1,6 +1,8 @@
 ---
 layout: post
 title: How to Change RabbitMQ Queue Parameters in Production?
+tags:
+  - rabbitmq
 ---
 
 [RabbitMQ](http://www.rabbitmq.com/) does not allow re-declaring a queue with different values of parameters such as durability, auto delete, etc. Some parameters could be configured both by queue parameter and server-side policies, but if both are set, queue parameters win. So as long as queue parameters are used, it is the same problem.

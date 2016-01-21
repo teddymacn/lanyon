@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Integrate PrettyPhoto with jekyll-picture-tag plugin
+tags:
+  - jekyll
 ---
 
 In [previous post](/2016/01/20/installed-jekyll-picture-tag/), I talked about installed jekyll-picture-tag plugin to display pictures responsively in posts. It works very well in different browsers and resolutions. But sometimes, we might want a photo gallery. Instead of displaying the full size of photos, we might want to display thumbnails, and on click, popup a lightbox style slideshow window for displaying the full size of photos.

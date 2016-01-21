@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Installed jekyll-picture-tag plugin
+tags:
+  - jekyll
 ---
 
 Installed jekyll-picture-tag plugin to display pictures responsively in posts.
