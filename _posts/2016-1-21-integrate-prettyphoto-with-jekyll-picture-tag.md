@@ -17,3 +17,27 @@ The only addtional attribute we add to the jekyll-picture-tag liguid tag is "gro
 {% picture 2015-1-20-2.jpg alt="picture 2" group="1" %}
 ```
 {% endraw %}
+
+Besides the addtional attribute in liquid tag. We also need to necessary css and js to out pages. In your header include file, add the following:
+
+``` html
+  <!-- Pretty Photo -->
+  <script src="/public/js/jquery-1.6.1.min.js" type="text/javascript" charset="utf-8"></script>
+  <link rel="stylesheet" href="/public/css/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />
+  <script src="/public/js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>  
+  <script type="text/javascript" charset="utf-8">
+    $(document).ready(function(){
+	  $("picture img").each(function(){
+	    if (!$(this).attr('group')) return;
+		
+	    var parent = $(this).parent();
+	    parent.attr('rel', 'prettyPhoto[group_' + $(this).attr('group') + ']');
+		parent.attr('href', parent.children().first().attr('srcset'));
+	  });
+      $("picture[rel^='prettyPhoto']").prettyPhoto({theme:'pp_default',slideshow:5000,autoplay_slideshow:false,social_tools:false});
+    });
+  </script>  
+```
+
+Also, you need to add necessary css, js and image files to your jekyll repo. All the files could be downloaded from the official [PrettyPhoto](http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/#prettyPhoto) site.
+
