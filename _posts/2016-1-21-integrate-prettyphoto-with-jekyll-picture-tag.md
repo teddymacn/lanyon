@@ -18,7 +18,7 @@ The only addtional attribute we add to the jekyll-picture-tag liguid tag is "gro
 ```
 {% endraw %}
 
-Besides the addtional attribute in liquid tag. We also need to necessary css and js to out pages. In your header include file, add the following:
+Besides the addtional attribute in liquid tag. We also need to add necessary css and js to our page template. So, in the header include file, we need to add the following:
 
 ``` html
   <!-- Pretty Photo -->
@@ -39,5 +39,5 @@ Besides the addtional attribute in liquid tag. We also need to necessary css and
   </script>  
 ```
 
-Also, you need to add necessary css, js and image files to your jekyll repo. All the files could be downloaded from the official [PrettyPhoto](http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/#prettyPhoto) site.
+Also, we need to add necessary css, js and image files to the jekyll repo. All the files could be downloaded from the official [PrettyPhoto](http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/#prettyPhoto) site.
 
