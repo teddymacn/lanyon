@@ -14,7 +14,7 @@ The live example, is already in the [previous post](/2016/01/20/installed-jekyll
 The only addtional attribute we add to the jekyll-picture-tag liquid tag is "group". You could see the sample liquid tag below. Images marked with the same group value, will be displayed together in the same PrettyPhoto slideshow window. So easy!
 
 {% raw %}
-``` txt
+``` html
 {% picture 2015-1-20-1.jpg alt="picture 1" group="1" %}
 {% picture 2015-1-20-2.jpg alt="picture 2" group="1" %}
 ```
