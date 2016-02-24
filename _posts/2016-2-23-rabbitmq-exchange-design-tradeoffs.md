@@ -1,6 +1,6 @@
 ---
 layout: post
-title: RabbitMQ Exchange & Queue Design Trade-off
+title: RabbitMQ Exchange and Queue Design Trade-off
 tags:
   - rabbitmq
 ---

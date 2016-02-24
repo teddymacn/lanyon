@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Understanding RabbitMQ Exchange & Queue
+title: Understanding RabbitMQ Exchange and Queue
 tags:
   - rabbitmq
 ---
