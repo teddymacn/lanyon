@@ -8,7 +8,7 @@ permalink:           pretty
 title:               Teddy's Knowledge
 tagline:             '.NET, Open Source, Cassandra, RabbitMQ, ELK, Docker, etc'
 description:         "Teddy Ma, full-stack software developer/architect in internet & online education industry for 15 years @ Shanghai, China"
-#url:                 http://teddyma.cn
+#url:                 https://teddyma.cn
 baseurl:             ''
 gems:				 ["jekyll-paginate", "jekyll-picture-tag", "jekyll-archives"]
 paginate:            5
