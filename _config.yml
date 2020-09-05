@@ -2,7 +2,6 @@
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
-#relative_permalinks: true
 
 # Setup
 title:               Teddy's Knowledge
@@ -66,3 +65,6 @@ jekyll-archives:
   layout: 'tag'
   permalinks:
     tag: '/tag/:name/'
+
+# Plugins
+plugins:                ['jekyll-paginate', 'jekyll-picture-tag']
